@@ -1,0 +1,101 @@
+{
+    "first_names": [
+    "Li", "Zhang", "Wu", "Chen", "Lin", "Wang", "Yang", "Liu", "Huang", "Zhao",
+    "Xu", "Sun", "Ma", "Zhu", "Deng", "Fang", "Guo", "He", "Shen", "Wei",
+    "Luo", "Gao", "Xiao", "Peng", "Cai", "Jin", "Qin", "Tang", "Yuan", "Cheng",
+    "Han", "Duan", "Hong", "Jiang", "Yao", "Fu", "Hu", "Kong", "Qiao", "Mo",
+    "Zhong", "Xie", "Bao", "Lu", "Hao", "Shang", "Tian", "Yan", "Pei", "Nie",
+    "Lian", "Bo", "Chao", "Meng", "Xian", "Zhen", "Hong", "Qiu", "Xun", "Feng",
+    "Zou", "Lai", "Gui", "Hui", "Si", "Rong", "Xing", "Chun", "Jiao", "Kai",
+    "An", "Mi", "Rui", "Tie", "Xian", "Zi", "Zhi", "Min", "Ning", "Tao",
+    "Zhi", "Lei", "Xiu", "Ying", "Hua", "Feng", "Qing", "Luo", "Dan", "Jing",
+    "Yan", "Bing", "Xuan", "Hui", "Ping", "Rui", "Jun", "Ke", "Yun", "Huan"
+],
+    "last_names": [
+    "Wei", "Feng", "Ling", "Mei", "Xiu", "Jun", "Yan", "Rui", "Xian", "Tao",
+    "Lei", "Qing", "Hui", "Dan", "Min", "Zhi", "Jing", "Ping", "Huan", "Bing",
+    "Kai", "An", "Ning", "Ying", "Hua", "Xuan", "Ke", "Yun", "Si", "Rong",
+    "Chun", "Jiao", "Tie", "Zi", "Shu", "Lan", "Fei", "Ming", "Zhe", "Jian",
+    "Ting", "Sheng", "Yu", "Yao", "Bo", "Mao", "Guang", "Cheng", "Xin", "Shan",
+    "Pei", "Xia", "Qiao", "Jin", "Tang", "Hao", "Yue", "Chao", "He", "Cai",
+    "Lu", "Deng", "Xiang", "Zuo", "Qin", "Si", "Hai", "Tong", "Fen", "Xun",
+    "Heng", "Mo", "Gui", "Xie", "Qiu", "Lian", "Ling", "Han", "Shan", "Mo",
+    "Nuo", "Wei", "Ming", "Lei", "Shuai", "Kong", "Nian", "Ting", "Miao", "Zhou",
+    "Fu", "Lu", "Zhao", "Ge", "Sheng", "Lai", "Wen", "Heng", "Song", "Xiong"
+],
+    "talents": {
+        "native": [
+            "Sharp Perception", "Born Leader", "Iron Will", "Lightning Reflexes", "Unbreakable Body",
+            "Martial Prodigy", "Child of Fortune", "Heavenly Constitution", "Master Strategist", "Eagle Eyes",
+            "Silver Tongue", "Thunderous Strength", "Spiritual Affinity", "Unwavering Focus", "Peerless Agility",
+            "Hidden Aura", "Artisan’s Touch", "Born Healer", "Heaven’s Voice", "Beast Whisperer"
+        ],
+        "acquired": [
+            "Fishing Expert", "Sword Mastery", "Alchemy Apprentice", "Shadow Step", "Elder’s Wisdom",
+            "Battle Hardened", "Qi Refinement", "Beast Trainer", "Rune Crafting", "Meditative Focus"
+        ]},
+    "negative_traits": {
+        "native": [
+            "Dull Perception", "Poor Leader", "Weak Will", "Slow Reflexes", "Fragile Body",
+            "Martial Ineptitude", "Cursed Fortune", "Frail Constitution", "Disorganized Thinker", "Blurred Vision",
+            "Harsh Voice", "Feeble Strength", "Spiritual Block", "Scattered Focus", "Clumsy Movements",
+            "Revealing Aura", "Clumsy Hands", "Inept Healer", "Grating Voice", "Animal Aversion"
+        ],
+        "acquired": [
+            "Fishing Failure", "Awkward Swordsman", "Failed Alchemist", "Heavy Steps", "Fool’s Wisdom",
+            "Battle Fear", "Qi Instability", "Beast Bane", "Failed Rune Crafter", "Distracted Mind"
+        ]
+    },
+    "backgrounds": ["Beggar Youth", "Noble Scion", "Merchant Family", "Orphaned Wanderer"],
+    "secret_bodies": {
+        "Thunder God Body": {"Strength": 3, "Agility": 2},
+        "Phoenix Feather Body": {"Agility": 3, "Resilience": 2},
+        "Dragon Scale Body": {"Resilience": 4, "Strength": 2},
+        "Iron Mountain Body": {"Resilience": 5, "Luck": 1}
+    },
+    "affiliations": ["None", "Wealthy Merchant Family", "Renowned Martial Sect", "Infamous Rogue Clan"],
+    "trait_stat_relationships": {
+        "Sharp Perception": {"Perception": 2},
+        "Born Leader": {"Social": 3, "Intellect": 1},
+        "Iron Will": {"Resilience": 3},
+        "Lightning Reflexes": {"Agility": 2, "Dexterity": 1},
+        "Unbreakable Body": {"Resilience": 4, "Strength": 2},
+        "Martial Prodigy": {"Strength": 2, "Dexterity": 2,"Studying": 2},
+        "Child of Fortune": {"Luck": 3},
+        "Heavenly Constitution": {"Resilience": 3, "Lifespan": 20},
+        "Master Strategist": {"Intellect": 3, "Social": 1},
+        "Eagle Eyes": {"Perception": 3},
+        "Silver Tongue": {"Social": 3,"Speaking": 2,"Negotiation": 2},
+        "Thunderous Strength": {"Strength": 4},
+        "Spiritual Affinity": {"QI Control": 3},
+        "Unwavering Focus": {"Intellect": 2, "Studying": 2},
+        "Peerless Agility": {"Agility": 3},
+        "Hidden Aura": {"Stealth": 3},
+        "Artisan’s Touch": {"Artisanal Skill": {"Forging Weapon": 2, "Forging Armor": 2,"Crafting": 2,"Manual Labor": 2}},
+        "Born Healer": {"Alchemist Skill": 3},
+        "Heaven’s Voice": {"Speaking": 3,"Speaking": 2},
+        "Beast Whisperer": {"Beast Taming": 3, "Social": -1}
+    },
+    "negative_trait_stat_relationships": {
+        "Dull Perception": {"Perception": -2},
+        "Poor Leader": {"Social": -3, "Intellect": -1},
+        "Weak Will": {"Resilience": -3},
+        "Slow Reflexes": {"Agility": -2, "Dexterity": -1},
+        "Fragile Body": {"Resilience": -4, "Strength": -2},
+        "Martial Ineptitude": {"Strength": -2, "Dexterity": -2,"Studying": -2},
+        "Cursed Fortune": {"Luck": -3},
+        "Frail Constitution": {"Resilience": -3, "Lifespan": -20},
+        "Disorganized Thinker": {"Intellect": -3, "Social": -1},
+        "Blurred Vision": {"Perception": -3},
+        "Harsh Voice": {"Social": -3,"Speaking": -2,"Negotiation": -2},
+        "Feeble Strength": {"Strength": -4},
+        "Spiritual Block": {"QI Control": -3},
+        "Scattered Focus": {"Intellect": -2, "Studying": -2},
+        "Clumsy Movements": {"Agility": -3},
+        "Revealing Aura": {"Stealth": -3},
+        "Clumsy Hands": {"Artisanal Skill": {"Forging Weapon": -2, "Forging Armor": -2,"Crafting": -2,"Manual Labor": -2}},
+        "Inept Healer": {"Alchemist Skill": -3},
+        "Grating Voice": {"Speaking": -3,"Speaking": -2},
+        "Animal Aversion": {"Beast Taming": -3, "Social": 1}
+    }
+}
